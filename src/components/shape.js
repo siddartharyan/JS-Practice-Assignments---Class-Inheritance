@@ -1,10 +1,8 @@
-import React from "react";
-class Shape extends React.Component() {
-  constructor(props) {
-    super();
-    this.color = "yellow";
+class Shape {
+  constructor() {
+    this.color = "#00000";
   }
   drawShape() {}
   calculateArea() {}
 }
-export default Shape;
+module.exports = Shape;
