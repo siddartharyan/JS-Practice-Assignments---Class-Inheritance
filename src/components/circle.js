@@ -1,6 +1,6 @@
-// import using require
-
-// declare class
-
-
-// export class using module.exports
+import React from "react";
+import Shape from "./shape.js";
+class Circle extends Shape() {
+  constructor(props) {}
+  calculateArea() {}
+}
